@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="adminLoginTest"
+    errors="0" failures="1" hostname="" id="" package="adminLoginTest" skipped="0"
+    tests="2" time="7.861" timestamp="">
+  
+    <testcase name="Step one: navigate to website - submit mobile number" classname="adminLoginTest" time="2.260" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Step two: enter otp and click submit" classname="adminLoginTest" time="5.601" assertions="1">  <failure message="Timed out while waiting for element &lt;input[type=tel]&gt; to be present for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (5334ms)">    at Object.Step two: enter otp and click submit (/home/vi/WorkCode/learn-test/tests/adminLoginTest.js:18:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+<system-out>[[ATTACHMENT|/home/vi/WorkCode/learn-test/tests_output/screenshots/adminLoginTest/Step-two:-enter-otp-and-click-submit_FAILED_Jun-14-2021-195506-GMT+0530.png]]</system-out>
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

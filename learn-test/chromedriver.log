@@ -1,0 +1,5 @@
+Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 9517
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+IPv6 port not available. Exiting...
+[1623829335.132][SEVERE]: bind() failed: Address already in use (98)

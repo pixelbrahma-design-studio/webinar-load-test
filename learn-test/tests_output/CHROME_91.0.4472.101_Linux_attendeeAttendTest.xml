@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="attendeeAttendTest"
+    errors="1" failures="0" hostname="" id="" package="attendeeAttendTest" skipped="0"
+    tests="1" time="129.5" timestamp="">
+  
+    <testcase name="Attendee 1: navigate to website and Join Webinar" classname="attendeeAttendTest" time="129.5" assertions="2">
+
+    
+
+    
+    <error message="Error while running .saveScreenshot(): Error ECONNREFUSED: connect ECONNREFUSED 127.0.0.1:9517" type="error"><![CDATA[
+    Error: Error while running .saveScreenshot(): Error ECONNREFUSED: connect ECONNREFUSED 127.0.0.1:9517
+    at /home/vi/WorkCode/learn-test/node_modules/nightwatch/lib/api/_loaders/command.js:178:29
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        Error: Error while running .saveScreenshot(): Error ECONNREFUSED: connect ECONNREFUSED 127.0.0.1:9517
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
