@@ -4,7 +4,7 @@ module.exports = {
 
     'webdriver': {
         'start_process': true,
-'server_path': "node_modules/.bin/chromedriver",
+'server_path': require('chromedriver').path,
         'port': 9517
     },
 
@@ -14,7 +14,7 @@ module.exports = {
                 'enabled': true,
                 'on_failure': true,
                 'on_error': true,
-                'path': 'tests_output/screenshots'
+                'path': 'tests_output\screenshots'
             },
             'desiredCapabilities': {
                 'browserName': 'chrome',

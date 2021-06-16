@@ -1,8 +1,8 @@
 #!/bin/bash
 ## declare an array variable
 declare -a array=(
-"https://amd-webinar-dev.web.app/dashboard/webinar/j66zCrpxeJcIZthas3NN/18EyxI8uoluvkmfHtHrS",
-"https://amd-webinar-dev.web.app/dashboard/webinar/j66zCrpxeJcIZthas3NN/LacCcZxtriBOwG03srAf",
+"https://amd-webinar-dev.web.app/dashboard/webinar/j66zCrpxeJcIZthas3NN/18EyxI8uoluvkmfHtHrS"
+"https://amd-webinar-dev.web.app/dashboard/webinar/j66zCrpxeJcIZthas3NN/LacCcZxtriBOwG03srAf"
 "https://amd-webinar-dev.web.app/dashboard/webinar/j66zCrpxeJcIZthas3NN/RHgoBr6NjOiD2J2PAXIT"
 )
 

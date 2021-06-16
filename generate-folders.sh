@@ -2,7 +2,7 @@
 
 
 counter=1
-port=1915
+port=9525
 while [ $counter -le 3 ]
 do
 echo $counter
@@ -17,8 +17,10 @@ module.exports = {
 
     'webdriver': {
         'start_process': true,
-'server_path': "node_modules/.bin/chromedriver",
+'server_path': require('chromedriver').path,
 'port': ${port},
+
+	},
 
     'test_settings': {
         'default': {
@@ -26,7 +28,7 @@ module.exports = {
                 'enabled': true,
                 'on_failure': true,
                 'on_error': true,
-                'path': 'tests_output/screenshots'
+                'path': 'tests_output\screenshots'
             },
             'desiredCapabilities': {
                 'browserName': 'chrome',
