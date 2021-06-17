@@ -2,8 +2,8 @@
 
 
 counter=1
-port=9525
-while [ $counter -le 3 ]
+port=$2
+while [ $counter -le $1 ]
 do
 echo $counter
 cp learn-test learn-test$counter -R
