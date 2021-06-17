@@ -41,7 +41,7 @@ module.exports = {
 
 echo $nightwatchConfigText > nightwatch.conf.js
 
-npm install
+#npm install
 cd ..
 ((counter++))
 done
